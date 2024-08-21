@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "e553d6cc-366b-4037-afde-5064fd01dd0d",
+		"name": "Best",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1878453"
+	},
+	"item": [
+		{
+			"name": "user_based",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "username",
+							"value": "VeroModa",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "password2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:1100/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "1100",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
